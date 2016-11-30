@@ -5,25 +5,21 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
 
 class Linea
 {
-	public ArrayList<Integer> data;
 	public int count;
 	public int valMax;
 
 	public Linea ()
 	{
-		data = new ArrayList<Integer>();
 		count = 0;
 		valMax = -1;
 	}
 
 	public void add (int val)
 	{
-		data.add(val);
 		if(val == 0)
 		{
 			count = 0;
